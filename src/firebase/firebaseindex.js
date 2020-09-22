@@ -1,15 +1,6 @@
 import firebase from "firebase";
 
-// var firebaseConfig = {
-//   apiKey: "AIzaSyCONQfjLjL2QDMOnR6aIMx8lvfWhlAO84w",
-//   authDomain: "music-site-81730.firebaseapp.com",
-//   databaseURL: "https://music-site-81730.firebaseio.com",
-//   projectId: "music-site-81730",
-//   storageBucket: "music-site-81730.appspot.com",
-//   messagingSenderId: "856869226261",
-//   appId: "1:856869226261:web:9d413d065569b6bd790b1c",
-//   measurementId: "G-4VZ1C7RK5Q",
-// };
+
 
 var firebaseConfig = {
   apiKey: process.env.REACT_APP_API_KEY,
